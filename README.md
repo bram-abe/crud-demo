@@ -1,13 +1,21 @@
 # SIMPLE CRUD OPERATION
-This app is intended to simulate a simple CRUD operation with calling API on others services.
+This web app is intended to simulate a simple CRUD operation and calling API on others services.
 
-## SERVER
-Please go into backend directory to start web server and call API on `server.js` . 
+## HOW TO USE
+Use `docker compose up` to start API and WEB services.
 
-## HOW TO TEST & USE
+### PRODUCTION
+You can use supplied `Dockerfile` to deploying into container orchestration or any serverless provider.
+
+### LOCAL DEV & TEST
+#### API SERVER
+- Open backend director `cd backend`
+- Use `npm start` or `node server.js` 
+- Start API server as above.
+#### FRONTEND WEB
 - `cd frontend/src`
-- Use `npm run test` to include test scenario running in the backgroud / integrate with CI/CD pipline.
 - Use `npm run start` to start in development mode.
+- Use `npm run test` to include test scenario running in the backgroud / integrate with CI/CD pipline.
 
 ## STACK
 - Fastify
