@@ -15,7 +15,7 @@ You can use supplied `Dockerfile` to deploying into container orchestration or a
 #### FRONTEND WEB
 - `cd frontend/src`
 - Use `npm run start` to start in development mode.
-- Use `npm run test` to include test scenario running in the backgroud / integrate with CI/CD pipline.
+- Use `npm run test` to include test scenario running in the backgroud / integrate with CI/CD pipeline.
 
 ## STACK
 - Fastify
