@@ -2,7 +2,7 @@
 This web app is intended to simulate a simple CRUD operation and calling API on others services.
 
 ## HOW TO USE
-- Put mongodb credential as ENV variables inside `.env` file in the root directory
+- Put mongodb credential as ENV variables inside `.env` file in the api directory
 - Use `docker compose up` on root DIR. to start API and WEB services.
 
 ### PRODUCTION
