@@ -1,0 +1,22 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.1",
+    "fastify-cors": "^6.0.2",
+    "fastify-mongodb": "^4.0.0",
+    "fastify-plugin": "^3.0.0",
+    "mongodb": "^4.1.0",
+    "mongodb-client-encryption": "^1.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Muhammad Abraham",
+  "license": "ISC"
+}
