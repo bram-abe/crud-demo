@@ -2,7 +2,8 @@
 This web app is intended to simulate a simple CRUD operation and calling API on others services.
 
 ## HOW TO USE
-Use `docker compose up` to start API and WEB services.
+- Put mongodb credential as ENV variables inside `.env` file in the root directory
+- Use `docker compose up` on root DIR. to start API and WEB services.
 
 ### PRODUCTION
 You can use supplied `Dockerfile` to deploying into container orchestration or any serverless provider.
